@@ -7,14 +7,12 @@ cache:
   directories:
     - node_modules
 script:
-  - npm run deploy
+  - npm run build
 
 deploy:
   provider: pages
   skip_cleanup: true
+  github_token: $github_token
   local_dir: build
-  keep_history: true
-  github_token: $github_token # Set in the settings page of your repository, as a secure variable
-  target_branch: gh-pages
   on:
     branch: master
