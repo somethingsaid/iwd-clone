@@ -1,7 +1,7 @@
 import React from "react";
 import Logo from "./Logo/Logo";
 import NavItem from "./NavItem/NavItem";
-import ContactUs from "../ContactUs/ContactUs";
+import ActionButton from "../ActionButton/ActionButton";
 
 const toolbar = () => {
   return (
@@ -11,7 +11,7 @@ const toolbar = () => {
       <NavItem description="Why Intelliware" />
       <NavItem description="Resourece" />
       <NavItem description="Careers" />
-      <ContactUs />
+      <ActionButton btnText="Contact Us" />
     </div>
   );
 };
