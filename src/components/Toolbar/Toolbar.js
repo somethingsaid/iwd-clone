@@ -1,16 +1,14 @@
 import React from "react";
 import Logo from "./Logo/Logo";
-import NavItem from "./NavItem/NavItem";
+import Navigation from "./Navigation/Navigation";
 import ActionButton from "../ActionButton/ActionButton";
+import "./Toolbar.css";
 
 const toolbar = () => {
   return (
-    <div>
+    <div className="Toolbar">
       <Logo />
-      <NavItem description="Software Development" />
-      <NavItem description="Why Intelliware" />
-      <NavItem description="Resourece" />
-      <NavItem description="Careers" />
+      <Navigation />
       <ActionButton btnText="Contact Us" />
     </div>
   );
