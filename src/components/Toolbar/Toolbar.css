@@ -1,7 +1,7 @@
 .Toolbar {
   display: grid;
   padding: 0 20px;
-  grid-template: auto / 1fr 4fr 1fr;
+  grid-template: 1fr / 1fr 4fr 1fr;
 }
 
 .Toolbar-logo {
@@ -14,7 +14,7 @@
 }
 
 .Toolbar-action-button {
-  padding: 15px;
+  padding-top: 20px;
   text-align: center;
   grid-column: 3 / 4;
 }
