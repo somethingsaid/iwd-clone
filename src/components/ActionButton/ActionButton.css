@@ -6,6 +6,13 @@
   font-family: Open Sans, "Roboto", "Helvetica", Sans Serif;
   font-weight: 500;
   color: #010101;
+  outline: none;
+}
+
+.ActionButton button:hover {
+  border: solid 1px black;
+  margin-top: -2px;
+  transition: 0.2s;
 }
 
 @media screen and (max-width: 992px) {
