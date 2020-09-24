@@ -7,9 +7,15 @@ import "./Toolbar.css";
 const toolbar = () => {
   return (
     <div className="Toolbar">
-      <Logo />
-      <Navigation />
-      <ActionButton btnText="Contact Us" />
+      <div className="Toolbar-logo">
+        <Logo />
+      </div>
+      <div className="Toolbar-navigation">
+        <Navigation />
+      </div>
+      <div className="Toolbar-action-button">
+        <ActionButton btnText="CONTACT US" />
+      </div>
     </div>
   );
 };

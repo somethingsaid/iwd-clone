@@ -1,4 +1,10 @@
 .NavItem {
   text-transform: uppercase;
   cursor: pointer;
+  float: right;
+  margin: 0 15px;
+  font-family: Open Sans, "Roboto", "Helvetica", Sans Serif;
+  font-weight: 400;
+  font-size: 0.85em;
+  color: grey;
 }

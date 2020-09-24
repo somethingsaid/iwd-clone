@@ -1,5 +1,6 @@
 import React from "react";
 import NavItem from "./NavItem/NavItem";
+import "./Navigation.css";
 
 const navigation = () => {
   const items = [
@@ -9,9 +10,13 @@ const navigation = () => {
     "Careers",
   ];
 
-  return items.map((item) => {
-    return <NavItem key={item} description={item} />;
-  });
+  return (
+    <ul className="Navigation">
+      {items.map((item) => {
+        return <NavItem key={item} description={item} />;
+      })}
+    </ul>
+  );
 };
 
 export default navigation;

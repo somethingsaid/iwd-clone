@@ -1,9 +1,10 @@
 import React from "react";
 import Toolbar from "../../components/Toolbar/Toolbar";
+import "./Layout.css";
 
 function Layout() {
   return (
-    <div>
+    <div className="Layout">
       <Toolbar />
     </div>
   );

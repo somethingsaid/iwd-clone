@@ -2,7 +2,11 @@ import React from "react";
 import "./NavItem.css";
 
 const navItem = (props) => {
-  return <p className="NavItem">{props.description}</p>;
+  return (
+    <li className="NavItem">
+      <span>{props.description}</span>
+    </li>
+  );
 };
 
 export default navItem;
