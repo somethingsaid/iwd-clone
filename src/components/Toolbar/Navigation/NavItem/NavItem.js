@@ -5,7 +5,10 @@ const navItem = (props) => {
   return (
     <li className="NavItem">
       <span className="description">{props.description}</span>
-      <span> &#9662;</span>
+      <span>
+        {" "}
+        <i className="fa fa-chevron-down" aria-hidden="true"></i>
+      </span>
     </li>
   );
 };

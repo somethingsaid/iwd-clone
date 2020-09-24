@@ -34,11 +34,18 @@ class Toolbar extends Component {
         <ActionButton btnText="CONTACT US" />
       </div>
     );
+    let stackedMenuBtn = null;
 
     if (!this.state.showActions) {
       navigation = null;
       actionBtn = null;
+      stackedMenuBtn = (
+        <div className="Toolbar-action-button">
+          <i className="fa fa-bars fa-2x" aria-hidden="true"></i>
+        </div>
+      );
     }
+
     return (
       <div className="Toolbar">
         <div className="Toolbar-logo">
@@ -46,6 +53,7 @@ class Toolbar extends Component {
         </div>
         {navigation}
         {actionBtn}
+        {stackedMenuBtn}
       </div>
     );
   }
