@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import Logo from "./Logo/Logo";
 import Navigation from "./Navigation/Navigation";
 import ActionButton from "../ActionButton/ActionButton";

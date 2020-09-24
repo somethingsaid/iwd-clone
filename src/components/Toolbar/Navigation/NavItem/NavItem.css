@@ -10,8 +10,39 @@
 .NavItem .description {
   text-transform: uppercase;
 }
-/* 
-@media screen and (max-width: 1200px) {
-  font-size:  
+
+@media screen and (max-width: 1073px) {
+  .NavItem {
+    font-size: 0.7em; 
+  }
 }
-*/
+
+@media screen and (max-width: 999px) {
+  .NavItem {
+    font-size: 0.65em;
+  }
+}
+
+@media screen and (max-width: 882px) {
+  .NavItem {
+    font-size: 0.60em;
+  }
+}
+
+@media screen and (max-width: 836px) {
+  .NavItem {
+    font-size: 0.58em;
+  }
+}
+
+@media screen and (max-width: 818px) {
+  .NavItem {
+    font-size: 0.56em;
+  }
+}
+
+@media screen and (max-width: 802px) {
+  .NavItem {
+    font-size: 0.5em;
+  }
+}

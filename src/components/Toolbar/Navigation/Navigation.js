@@ -12,7 +12,7 @@ const navigation = () => {
 
   return (
     <ul className="Navigation">
-      {items.map((item) => {
+      {items.reverse().map((item) => {
         return <NavItem key={item} description={item} />;
       })}
     </ul>
