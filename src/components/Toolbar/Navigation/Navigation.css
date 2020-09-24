@@ -1,13 +1,13 @@
 .Navigation {
   list-style-type: none;
 }
-
+/* 
 .Navigation .dropdown {
   display: inline-block;
-}
+} */
 
 .Navigation .dropdown-content {
-  display: block;
+  display: none;
   position: absolute;
   z-index: 1;
 }
