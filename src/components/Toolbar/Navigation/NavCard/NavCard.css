@@ -1,0 +1,20 @@
+.NavCard {
+  background-color: white;
+  -webkit-box-shadow: 0 10px 6px -6px lightgray;
+  -moz-box-shadow: 0 10px 6px -6px lightgray;
+  box-shadow: 0 10px 6px -6px lightgray;
+}
+
+.NavCard ul {
+  list-style-type: none;
+}
+
+.NavCard li {
+  margin: 5px;
+  cursor: pointer;
+  font-family: Open Sans, "Roboto", "Helvetica", Sans Serif;
+  font-weight: 400;
+  font-size: 0.85em;
+  color: grey;
+  text-decoration: none;
+}

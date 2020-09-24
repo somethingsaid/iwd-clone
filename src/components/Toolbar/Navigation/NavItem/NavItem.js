@@ -3,7 +3,7 @@ import "./NavItem.css";
 
 const navItem = (props) => {
   return (
-    <li className="NavItem">
+    <li className={`NavItem ${props.className}`}>
       <span className="description">{props.description}</span>
       <span>
         {" "}

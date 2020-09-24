@@ -1,3 +1,17 @@
 .Navigation {
   list-style-type: none;
 }
+
+.Navigation .dropdown {
+  display: inline-block;
+}
+
+.Navigation .dropdown-content {
+  display: block;
+  position: absolute;
+  z-index: 1;
+}
+
+.Navigation .dropdown:hover .dropdown-content {
+  display: block;
+}

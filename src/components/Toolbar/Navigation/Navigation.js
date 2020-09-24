@@ -1,5 +1,7 @@
 import React from "react";
+import Aux from "../../../hoc/Aux";
 import NavItem from "./NavItem/NavItem";
+import NavCard from "./NavCard/NavCard";
 import "./Navigation.css";
 
 const navigation = () => {
@@ -39,7 +41,12 @@ const navigation = () => {
   return (
     <ul className="Navigation">
       {items.reverse().map((item) => {
-        return <NavItem key={item.main} description={item.main} />;
+        return (
+          <Aux key={item.main}>
+            <NavItem className="dropdown" description={item.main} />
+            <NavCard className="dropdown-content" items={item.secondary} />
+          </Aux>
+        );
       })}
     </ul>
   );
