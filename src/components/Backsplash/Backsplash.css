@@ -1,4 +1,19 @@
 .Backsplash {
+  position: relative;
+}
+
+.Backsplash video {
+  display: block;
   width: 100%;
-  height: auto;
+}
+
+.Backsplash .overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* top: 50%; */
+  /* bottom: 50%; */
+  text-align: center;
+  color: #f1f1f1;
 }
