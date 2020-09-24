@@ -8,7 +8,7 @@ const backsplash = () => {
     <div className="Backsplash">
       <video src={src} className="Video" muted loop autoPlay></video>
       <div className="overlay shade">&nbsp;</div>
-      <div className="overlay text">
+      <div className="overlay text-container">
         <h1>Intelliware develops enterprise-grade software solutions</h1>
         <h3>
           We build software that enables organizations in complex industries to
