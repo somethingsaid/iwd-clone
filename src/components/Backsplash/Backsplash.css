@@ -12,8 +12,17 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  /* top: 50%; */
-  /* bottom: 50%; */
+}
+
+.Backsplash .overlay.shade {
+  opacity: 0.5;
+  background-color: black;
+  height: 100%;
+  width: 100%;
+}
+
+.Backsplash .overlay.text {
+  width: 70%;
   text-align: center;
   color: #f1f1f1;
 }
