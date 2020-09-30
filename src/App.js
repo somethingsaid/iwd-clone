@@ -1,7 +1,7 @@
 import React from "react";
 
 import Layout from "./hoc/Layout/Layout";
-import Toolbar from "./components/Toolbar/Toolbar";
+import Toolbar from "./components/Navigation/Toolbar/Toolbar";
 import VideoBackground from "./components/VideoBackground/VideoBackground";
 
 function App() {

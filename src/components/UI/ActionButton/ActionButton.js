@@ -1,9 +1,9 @@
 import React from "react";
-import "./ActionButton.css";
+import classes from "./ActionButton.module.css";
 
 const actionButton = (props) => {
   return (
-    <div className="ActionButton">
+    <div className={classes.ActionButton}>
       <button>{props.btnText}</button>
     </div>
   );

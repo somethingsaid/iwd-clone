@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import Logo from "./Logo/Logo";
-import Navigation from "./Navigation/Navigation";
-import ActionButton from "../ActionButton/ActionButton";
-import StackedMenuButton from "./StackedMenuButton/StackedMenuButton";
+import Logo from "../../Logo/Logo";
+import Navigation from "../Navigation";
+import ActionButton from "../../UI/ActionButton/ActionButton";
+import HamburgerMenuToggle from "../../HamburgerMenuToggle/HamburgerMenuToggle";
 import "./Toolbar.css";
 
 class Toolbar extends Component {
@@ -42,7 +42,7 @@ class Toolbar extends Component {
       actionBtn = null;
       stackedMenuBtn = (
         <div className="Toolbar-action-button">
-          <StackedMenuButton />
+          <HamburgerMenuToggle />
         </div>
       );
     }
