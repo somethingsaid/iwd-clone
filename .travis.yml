@@ -1,6 +1,8 @@
 language: node_js
 node_js:
   - "stable"
+before_install:
+  - npm install -g @lhci/cli@0.3.x
 install:
   - npm install
 cache:
@@ -8,6 +10,9 @@ cache:
     - node_modules
 script:
   - npm run build
+  - lhci autorun
+addons:
+  chrome: stable
 
 deploy:
   provider: pages
