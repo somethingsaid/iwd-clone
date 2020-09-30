@@ -10,7 +10,7 @@ cache:
     - node_modules
 script:
   - npm run build
-  - lhci autorun
+  # - lhci autorun
 addons:
   chrome: stable
 
