@@ -1,6 +1,6 @@
 import React from "react";
 
-// TODO: used spread operator when you can and dont need the return
+// TODO: use object destructing when you can and dont need the return
 const hamburgerMenuToggle = ({ clicked }) => (
   <div onClick={clicked}>
     <i className="fa fa-bars fa-2x" aria-hidden="true"></i>
