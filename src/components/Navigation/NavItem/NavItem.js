@@ -1,15 +1,15 @@
 import React from "react";
-import "./NavItem.css";
+import Aux from "../../../hoc/Aux/Aux";
+import classes from "./NavItem.module.css";
 
 const navItem = (props) => {
   return (
-    <li className={`NavItem ${props.className}`}>
-      <span className="description">{props.description}</span>
-      <span>
-        {" "}
+    <Aux>
+      <span className={classes.NavItemTitle}>
+        {props.description}{" "}
         <i className="fa fa-chevron-down" aria-hidden="true"></i>
       </span>
-    </li>
+    </Aux>
   );
 };
 

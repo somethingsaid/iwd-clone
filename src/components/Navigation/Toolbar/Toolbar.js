@@ -3,7 +3,7 @@ import Logo from "../../Logo/Logo";
 import Navigation from "../Navigation";
 import ActionButton from "../../UI/ActionButton/ActionButton";
 import HamburgerMenuToggle from "../../HamburgerMenuToggle/HamburgerMenuToggle";
-import "./Toolbar.css";
+import classes from "./Toolbar.module.css";
 
 class Toolbar extends Component {
   state = {
@@ -26,12 +26,12 @@ class Toolbar extends Component {
 
   render() {
     let navigation = (
-      <div className="Toolbar-navigation">
+      <div className={classes.ToolbarNavigation}>
         <Navigation />
       </div>
     );
     let actionBtn = (
-      <div className="Toolbar-action-button">
+      <div className={classes.ToolbarActionButton}>
         <ActionButton btnText="CONTACT US" />
       </div>
     );
@@ -41,15 +41,15 @@ class Toolbar extends Component {
       navigation = null;
       actionBtn = null;
       stackedMenuBtn = (
-        <div className="Toolbar-action-button">
+        <div className={classes.ToolbarActionButton}>
           <HamburgerMenuToggle />
         </div>
       );
     }
 
     return (
-      <div className="Toolbar">
-        <div className="Toolbar-logo">
+      <div className={classes.Toolbar}>
+        <div className={classes.ToolbarLogo}>
           <Logo />
         </div>
         {navigation}

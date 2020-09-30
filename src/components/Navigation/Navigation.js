@@ -1,8 +1,6 @@
 import React from "react";
-import Aux from "../../hoc/Aux/Aux";
 import NavItem from "./NavItem/NavItem";
-import NavCard from "./NavCard/NavCard";
-import "./Navigation.css";
+import classes from "./Navigation.module.css";
 
 const navigation = () => {
   const items = [
@@ -39,13 +37,13 @@ const navigation = () => {
   ];
 
   return (
-    <ul className="Navigation">
-      {items.reverse().map((item) => {
+    <ul className={classes.Navigation}>
+      {items.map((item) => {
         return (
-          <Aux key={item.main}>
+          <li key={item.main} className={classes.li}>
             <NavItem className="dropdown" description={item.main} />
-            <NavCard className="dropdown-content" items={item.secondary} />
-          </Aux>
+            {/* <NavCard className="dropdown-content" items={item.secondary} /> */}
+          </li>
         );
       })}
     </ul>
