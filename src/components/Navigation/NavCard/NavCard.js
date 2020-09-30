@@ -1,11 +1,12 @@
 import React from "react";
 import "./NavCard.css";
 
-const navCard = (props) => {
+// TODO: use object destructuring and
+const navCard = ({ className, items }) => {
   return (
-    <div className={`NavCard ${props.className}`}>
+    <div className={`NavCard ${className}`}>
       <ul>
-        {props.items.map((item) => {
+        {items.map((item) => {
           return <li key={item}>{item}</li>;
         })}
       </ul>

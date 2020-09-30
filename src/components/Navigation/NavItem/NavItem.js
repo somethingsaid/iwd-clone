@@ -2,6 +2,7 @@ import React from "react";
 import Aux from "../../../hoc/Aux/Aux";
 import classes from "./NavItem.module.css";
 
+// TODO: use object destructing
 const navItem = (props) => {
   return (
     <Aux>
