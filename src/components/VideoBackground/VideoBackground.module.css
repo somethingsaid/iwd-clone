@@ -1,27 +1,27 @@
-.Backsplash {
+.VideoBackground {
   position: relative;
 }
 
-.Backsplash video {
+.VideoBackground video {
   display: block;
   width: 100%;
 }
 
-.Backsplash .overlay {
+.VideoBackground .overlay {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.Backsplash .overlay.shade {
+.VideoBackground .overlay.shade {
   opacity: 0.5;
   background-color: black;
   height: 100%;
   width: 100%;
 }
 
-.Backsplash .overlay.text-container {
+.VideoBackground .overlay.textContainer {
   width: 70%;
   text-align: center;
   color: #f1f1f1;
