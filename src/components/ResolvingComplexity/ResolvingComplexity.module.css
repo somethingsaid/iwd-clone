@@ -40,6 +40,16 @@
   display: none;
 }
 
+.imageCredit {
+  color: white;
+  font-size: x-small;
+}
+
+.imageCredit a {
+  text-decoration: none;
+  color: #007cba;
+}
+
 @media (min-width: 768px) {
   .placeholder {
     display: block;
