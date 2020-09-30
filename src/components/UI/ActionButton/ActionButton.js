@@ -2,9 +2,12 @@ import React from "react";
 import classes from "./ActionButton.module.css";
 
 const actionButton = (props) => {
+  const arrow = props.arrow ? <i className="fa fa-arrow-right"></i> : null;
   return (
     <div className={classes.ActionButton}>
-      <button>{props.btnText}</button>
+      <button className={classes[props.className]}>
+        {props.btnText} {arrow}
+      </button>
     </div>
   );
 };

@@ -8,6 +8,12 @@
   outline: none;
 }
 
+.ActionButton button.primary {
+ background-color: #004785;
+ color: white;
+ font-weight: bold;
+}
+
 .ActionButton button:hover {
   border: solid 1px black;
   margin-top: -2px;
