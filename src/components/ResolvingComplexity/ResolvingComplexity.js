@@ -4,7 +4,10 @@ import classes from "./ResolvingComplexity.module.css";
 
 const resolvingComplexity = () => {
   return (
-    <div className={classes.ImageBackground}>
+    <div
+      className={classes.ImageBackground}
+      title="Photo by Shahadat Rahman via Unsplash"
+    >
       <div className={classes.description}>
         <h1>Resolving complexity is our specialty</h1>
         <h3>
@@ -15,16 +18,6 @@ const resolvingComplexity = () => {
         <LearnMore url="https://www.intelliware.com/focus-areas/" />
       </div>
       <div className={classes.placeholder}></div>
-      <span className={classes.imageCredit}>
-        Photo by{" "}
-        <a href="https://unsplash.com/@hishahadat?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">
-          Shahadat Rahman
-        </a>{" "}
-        on{" "}
-        <a href="https://unsplash.com/s/photos/complexity?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">
-          Unsplash
-        </a>
-      </span>
     </div>
   );
 };
