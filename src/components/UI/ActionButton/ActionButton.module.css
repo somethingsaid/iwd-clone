@@ -12,6 +12,7 @@
  background-color: #004785;
  color: white;
  font-weight: bold;
+ border: 1px solid transparent;
 }
 
 .ActionButton button:hover {
