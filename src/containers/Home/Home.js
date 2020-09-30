@@ -5,6 +5,7 @@ import VideoBackground from "../../components/VideoBackground/VideoBackground";
 import CdnTechConnection from "../../components/CdnTechConnection/CdnTechConnection";
 import Services from "../../components/Services/Services";
 import ResolvingComplexity from "../../components/ResolvingComplexity/ResolvingComplexity";
+import SuccessStories from "../../components/SuccessStories/SuccessStories";
 
 import classes from "./Home.module.css";
 
@@ -16,6 +17,7 @@ const home = () => {
       <CdnTechConnection />
       <Services />
       <ResolvingComplexity />
+      <SuccessStories />
     </div>
   );
 };

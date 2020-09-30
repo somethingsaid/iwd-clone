@@ -18,7 +18,6 @@ class Services extends Component {
         this.setState({
           services: response.data,
         });
-        console.log("[Services.js]: ", this.state.services);
       })
       .catch((error) => {
         console.log(error);
