@@ -1,6 +1,7 @@
 import React from "react";
 
 const logo = () => {
+  // TODO: see comment about urls in CdnTechConnection
   const defaultImg =
     "https://www.intelliware.com/wp-content/uploads/2019/08/IWD-Logo-Mobile_86b2731d8043c0f45bdc89b8b81e1562.png?x29699";
   const largeImg =

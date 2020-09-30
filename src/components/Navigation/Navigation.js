@@ -3,6 +3,7 @@ import NavItem from "./NavItem/NavItem";
 import classes from "./Navigation.module.css";
 
 const navigation = () => {
+  // TODO: this can be part of a NavItemContent.js file for just the content headers and urls
   const items = [
     {
       main: "Software Development",
