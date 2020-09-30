@@ -1,15 +1,13 @@
 import React from "react";
 
 import Layout from "./hoc/Layout/Layout";
-import Toolbar from "./components/Navigation/Toolbar/Toolbar";
-import VideoBackground from "./components/VideoBackground/VideoBackground";
+import Home from "./containers/Home/Home";
 
 function App() {
   return (
     <div>
       <Layout>
-        <Toolbar />
-        <VideoBackground />
+        <Home />
       </Layout>
     </div>
   );
