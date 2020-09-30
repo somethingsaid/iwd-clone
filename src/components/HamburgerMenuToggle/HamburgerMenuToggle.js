@@ -1,12 +1,9 @@
 import React from "react";
-import classes from "./HamburgerMenuToggle.module.css";
 
 const hamburgerMenuToggle = (props) => {
   return (
-    <div className={classes.HamburgerMenuToggle} onClick={props.clicked}>
-      <div></div>
-      <div></div>
-      <div></div>
+    <div onClick={props.clicked}>
+      <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
     </div>
   );
 };
