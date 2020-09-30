@@ -23,10 +23,6 @@
   font-weight: 200;
 }
 
-.Service a {
-  text-decoration:  none;
-}
-
 @media (min-width: 768px) {
   .Service {
     flex: 1 0 45%;

@@ -1,4 +1,5 @@
 import React from "react";
+import LearnMore from "../../UI/LearnMore/LearnMore";
 
 import classes from "./Service.module.css";
 
@@ -35,9 +36,7 @@ const service = (props) => {
       <div className={classes.text}>
         <h4>{props.title}</h4>
         <p>{props.description}</p>
-        <a href={props.url} target="_blank" rel="noopener noreferrer">
-          Learn More
-        </a>
+        <LearnMore url={props.url} />
       </div>
     </div>
   );
