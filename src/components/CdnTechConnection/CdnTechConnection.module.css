@@ -8,7 +8,6 @@
 
 .description {
   flex: 1;
-  margin-right: 25px;
 }
 
 .description h1 {
@@ -16,10 +15,21 @@
 }
 
 .image {
-  flex: 1;
-  margin-left: 25px;
+  display: none;
 }
 
 .image img{
   max-width: 100%;
+}
+
+@media (min-width: 768px) {
+  .description {
+    margin-right: 25px;
+  }
+
+  .image {
+    display: block;
+    flex: 1;
+    margin-left: 25px;
+  }
 }
