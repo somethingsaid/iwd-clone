@@ -1,8 +1,10 @@
 import React, { Component } from "react";
-import Spinner from "../UI/Spinner/Spinner";
-import Aux from "../../hoc/Aux/Aux";
-
 import axios from "../../axios-functions";
+
+import Service from "./Service/Service";
+import Spinner from "../UI/Spinner/Spinner";
+
+import classes from "./Services.module.css";
 
 class Services extends Component {
   state = {
@@ -16,6 +18,7 @@ class Services extends Component {
         this.setState({
           services: response.data,
         });
+        console.log("[Services.js]: ", this.state.services);
       })
       .catch((error) => {
         console.log(error);
@@ -23,17 +26,23 @@ class Services extends Component {
   }
 
   render() {
-    let tiles =
-      this.state.services.length > 0 ? (
-        <div>
-          <h1>Placeholder for Services</h1>
-        </div>
-      ) : (
-        <Spinner />
-      );
+    let tiles = null;
+    if (this.state.services.length > 0) {
+      tiles = this.state.services.map((service) => {
+        return (
+          <Service
+            key={service.title}
+            icon={service.iconDescription}
+            title={service.title}
+            description={service.text}
+            url={service.url}
+          />
+        );
+      });
+    }
+    const content = this.state.services.length > 0 ? tiles : <Spinner />;
 
-    console.log("Services.js: ", this.state.services);
-    return <Aux>{tiles}</Aux>;
+    return <div className={classes.Services}>{content}</div>;
   }
 }
 

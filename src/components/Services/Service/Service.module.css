@@ -1,0 +1,27 @@
+.Service {
+  display: flex;
+  align-content: center;
+  border: 1px solid #D3D3D3;
+  margin-bottom: 15px;
+}
+
+.Service .icon {
+  flex: 1;
+  display: flex;
+  font-size: 7vh;
+  color: #004785;
+  justify-content: center;
+  padding-top: 21px;
+}
+
+.Service .text {
+  flex: 3
+}
+
+.Service .text h4 {
+  font-weight: 200;
+}
+
+.Service a {
+  text-decoration:  none;
+}
