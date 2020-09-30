@@ -2,7 +2,7 @@ import React from "react";
 import NavItem from "./NavItem/NavItem";
 import classes from "./Navigation.module.css";
 
-const navigation = () => {
+const Navigation = () => {
   // TODO: this can be part of a NavItemContent.js file for just the content headers and urls
   const items = [
     {
@@ -51,4 +51,4 @@ const navigation = () => {
   );
 };
 
-export default navigation;
+export default Navigation;

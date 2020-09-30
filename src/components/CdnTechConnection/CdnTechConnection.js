@@ -2,8 +2,7 @@ import React from "react";
 import ActionButton from "../UI/ActionButton/ActionButton";
 import classes from "./CdnTechConnection.module.css";
 
-// does the course tell you to name them with the first letter as lower case? most of places i've seen react componnents start wth uppercase example CdnTechConnection
-const cdnTechConnection = () => {
+const CdnTechConnection = () => {
   // TODO: should move these urls into its own file example Assets.js and all it has a list of urls for content
   const defaultImg =
     "https://www.intelliware.com/wp-content/uploads/2020/06/iw-cntower-1.png";
@@ -36,4 +35,4 @@ const cdnTechConnection = () => {
   );
 };
 
-export default cdnTechConnection;
+export default CdnTechConnection;

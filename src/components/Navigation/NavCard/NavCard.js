@@ -2,7 +2,7 @@ import React from "react";
 import "./NavCard.css";
 
 // TODO: use object destructuring and
-const navCard = ({ className, items }) => {
+const NavCard = ({ className, items }) => {
   return (
     <div className={`NavCard ${className}`}>
       <ul>
@@ -14,4 +14,4 @@ const navCard = ({ className, items }) => {
   );
 };
 
-export default navCard;
+export default NavCard;

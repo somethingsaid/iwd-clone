@@ -3,7 +3,7 @@ import Aux from "../../../hoc/Aux/Aux";
 import classes from "./NavItem.module.css";
 
 // TODO: use object destructing
-const navItem = (props) => {
+const NavItem = (props) => {
   return (
     <Aux>
       <span className={classes.NavItemTitle}>
@@ -14,4 +14,4 @@ const navItem = (props) => {
   );
 };
 
-export default navItem;
+export default NavItem;
