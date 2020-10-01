@@ -1,0 +1,14 @@
+.SuccessStories{
+  padding: 0 15px;
+  margin-top: 30px;
+}
+
+.SuccessStories h3 {
+  margin-left: 12px;
+}
+
+.content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

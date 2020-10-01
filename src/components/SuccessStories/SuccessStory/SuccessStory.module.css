@@ -1,0 +1,39 @@
+.SuccessStory {
+  margin: 10px;
+  max-width: 40%;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.imageContainer {
+  border: 1px solid lightgrey;
+  display: flex;
+  justify-content: center;
+}
+
+.imageContainer img {
+  max-width: 100%;
+}
+
+.textContainer {
+  border: 1px solid lightgrey;
+  border-top: none;
+  padding: 10px;
+  min-height: 151px;
+}
+
+.textContainer h1 {
+  margin-top: 0;
+  font-size: 2vw;
+}
+
+@media (min-width: 768px) {
+  .SuccessStory {
+    flex: 1 0 45%;
+  }
+}
+
+@media (min-width: 992px) {
+  .SuccessStory {
+    flex: 1 0 30%;
+  }
+}

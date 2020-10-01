@@ -1,6 +1,10 @@
 import React, { Component } from "react";
 import Spinner from "../UI/Spinner/Spinner";
+import SuccessStory from "./SuccessStory/SuccessStory";
+import MorePosts from "../UI/MorePosts/MorePosts";
 import axios from "../../axios-functions";
+
+import classes from "./SuccessStories.module.css";
 
 class SuccessStories extends Component {
   state = {
@@ -11,7 +15,6 @@ class SuccessStories extends Component {
     axios
       .get("/successStories")
       .then((response) => {
-        console.log(response.data);
         this.setState({
           successStories: response.data,
         });
@@ -23,18 +26,21 @@ class SuccessStories extends Component {
     let tiles = null;
     if (this.state.successStories.length > 0) {
       tiles = this.state.successStories.map((successStory) => {
-        return (
-          <div key={successStory.text}>
-            <h1>{successStory.text}</h1>
-            <p>{successStory.img}</p>
-            <p>{successStory.url}</p>
-          </div>
-        );
+        return <SuccessStory key={successStory.text} {...successStory} />;
       });
     }
     const content = this.state.successStories.length > 0 ? tiles : <Spinner />;
 
-    return <div>{content}</div>;
+    return (
+      <div className={classes.SuccessStories}>
+        <h3>Success Stories</h3>
+        <div className={classes.content}>{content}</div>
+        <MorePosts
+          url="https://www.intelliware.com/success-stories/"
+          text="More Success Stories"
+        />
+      </div>
+    );
   }
 }
 

@@ -1,0 +1,12 @@
+.MorePosts {
+  text-align: right;
+  margin-right: 12px;
+}
+
+.MorePosts a {
+  color: #007cba;
+}
+
+.MorePosts span {
+  color: #007cba;
+}
