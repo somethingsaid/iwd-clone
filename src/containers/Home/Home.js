@@ -18,6 +18,16 @@ const home = () => {
       <Services />
       <ResolvingComplexity />
       <SuccessStories />
+      {/* TODO */}
+      <h1>Placeholder for "News, Updates, Insights" section</h1>
+      <h1>
+        Placeholder for "Need to transform the way you plan, build?" section
+      </h1>
+      <h1>
+        Placeholder for footer section - "Our Services, contact us, social media
+        links, copyright"
+      </h1>
+      {/* end: TODO */}
     </div>
   );
 };

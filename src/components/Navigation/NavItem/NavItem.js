@@ -2,7 +2,8 @@ import React from "react";
 import Aux from "../../../hoc/Aux/Aux";
 import classes from "./NavItem.module.css";
 
-// TODO: use object destructing
+// TODO: use object destructuring
+// TODO: create floating navigation cards for secondary headers
 const NavItem = (props) => {
   return (
     <Aux>
