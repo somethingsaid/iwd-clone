@@ -1,14 +1,11 @@
 import React from "react";
 import ActionButton from "../UI/ActionButton/ActionButton";
+
 import classes from "./CdnTechConnection.module.css";
 
-const CdnTechConnection = () => {
-  // TODO: should move these urls into its own file example Assets.js and all it has a list of urls for content
-  const defaultImg =
-    "https://www.intelliware.com/wp-content/uploads/2020/06/iw-cntower-1.png";
-  const srcSet =
-    "https://www.intelliware.com/wp-content/uploads/2020/06/iw-cntower-1.png 300w, https://www.intelliware.com/wp-content/uploads/2020/06/iw-cntower-1.png 1024w, https://www.intelliware.com/wp-content/uploads/2020/06/iw-cntower-1.png 768w, https://www.intelliware.com/wp-content/uploads/2020/06/iw-cntower-1.png 1400w";
+import { canadianTechConnection } from "../../assets/imgs";
 
+const CdnTechConnection = () => {
   return (
     <div className={classes.CdnTechConnection}>
       <div className={classes.description}>
@@ -23,10 +20,14 @@ const CdnTechConnection = () => {
       </div>
       <div className={classes.image}>
         <picture>
-          <source media="(min-width: 991px)" type="image/png" srcSet={srcSet} />
+          <source
+            media="(min-width: 991px)"
+            type="image/png"
+            srcSet={canadianTechConnection.srcSet}
+          />
           <img
             // style={style}
-            src={defaultImg}
+            src={canadianTechConnection.defaultImg}
             alt="The Canadian Tech Connection"
           />
         </picture>

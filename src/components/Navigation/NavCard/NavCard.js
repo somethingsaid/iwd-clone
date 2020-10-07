@@ -1,7 +1,7 @@
 import React from "react";
 import "./NavCard.css";
 
-// TODO: use object destructuring and
+// TODO: implement nav card
 const NavCard = ({ className, items }) => {
   return (
     <div className={`NavCard ${className}`}>

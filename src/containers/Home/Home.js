@@ -18,7 +18,7 @@ const home = () => {
       <Services />
       <ResolvingComplexity />
       <SuccessStories />
-      {/* TODO */}
+      {/* TODO: */}
       <h1>Placeholder for "News, Updates, Insights" section</h1>
       <h1>
         Placeholder for "Need to transform the way you plan, build?" section
