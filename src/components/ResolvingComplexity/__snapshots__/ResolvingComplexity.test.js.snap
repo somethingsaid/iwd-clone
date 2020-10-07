@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ResolvingComplexity/> renders correctly 1`] = `
+<div
+  className="ImageBackground"
+  title="Photo by Shahadat Rahman via Unsplash"
+>
+  <div
+    className="description"
+  >
+    <h1>
+      Resolving complexity is our specialty
+    </h1>
+    <h3>
+      The quality of Intelliware’s work delivers meaningful business value and enduring competitive advantage for the clients we serve. Join our roster of clients and modernize the way you do business.
+    </h3>
+    <a
+      href="https://www.intelliware.com/focus-areas/"
+      rel="noopener noreferrer"
+      style={
+        Object {
+          "color": "#007cba",
+          "textDecoration": "none",
+        }
+      }
+      target="_blank"
+    >
+      Learn More
+    </a>
+  </div>
+  <div
+    className="placeholder"
+  />
+</div>
+`;
