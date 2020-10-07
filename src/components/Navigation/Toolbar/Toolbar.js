@@ -5,7 +5,6 @@ import ActionButton from "../../UI/ActionButton/ActionButton";
 import HamburgerMenuToggle from "../../HamburgerMenuToggle/HamburgerMenuToggle";
 import classes from "./Toolbar.module.css";
 
-// TODO write a test for this, then write is as functional component and write the test for that and compare.
 class Toolbar extends Component {
   state = {
     showActions: true,

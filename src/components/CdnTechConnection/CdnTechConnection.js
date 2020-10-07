@@ -26,7 +26,6 @@ const CdnTechConnection = () => {
             srcSet={canadianTechConnection.srcSet}
           />
           <img
-            // style={style}
             src={canadianTechConnection.defaultImg}
             alt="The Canadian Tech Connection"
           />
