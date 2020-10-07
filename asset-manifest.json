@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/iwd-clone/static/css/main.7396532c.chunk.css",
+    "main.js": "/iwd-clone/static/js/main.0b9a17e2.chunk.js",
+    "main.js.map": "/iwd-clone/static/js/main.0b9a17e2.chunk.js.map",
+    "runtime-main.js": "/iwd-clone/static/js/runtime-main.1f24534b.js",
+    "runtime-main.js.map": "/iwd-clone/static/js/runtime-main.1f24534b.js.map",
+    "static/js/2.02d330ab.chunk.js": "/iwd-clone/static/js/2.02d330ab.chunk.js",
+    "static/js/2.02d330ab.chunk.js.map": "/iwd-clone/static/js/2.02d330ab.chunk.js.map",
+    "index.html": "/iwd-clone/index.html",
+    "precache-manifest.9b730af606038b00330078e9ce221c28.js": "/iwd-clone/precache-manifest.9b730af606038b00330078e9ce221c28.js",
+    "service-worker.js": "/iwd-clone/service-worker.js",
+    "static/css/main.7396532c.chunk.css.map": "/iwd-clone/static/css/main.7396532c.chunk.css.map",
+    "static/js/2.02d330ab.chunk.js.LICENSE.txt": "/iwd-clone/static/js/2.02d330ab.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1f24534b.js",
+    "static/js/2.02d330ab.chunk.js",
+    "static/css/main.7396532c.chunk.css",
+    "static/js/main.0b9a17e2.chunk.js"
+  ]
+}
