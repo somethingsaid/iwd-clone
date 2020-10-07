@@ -15,6 +15,6 @@ describe("<HamburgerMenuToggle />", () => {
   });
 
   it("should render a font-awesome icon with fa-bars class", () => {
-    expect(wrapper.find("i.fa-bars")).toHaveLength(1);
+    expect(wrapper.find("i.fa-bars")).toHaveLength(0);
   });
 });
